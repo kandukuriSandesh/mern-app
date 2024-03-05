@@ -54,8 +54,8 @@ export default function Profile() {
          <input id='file' type="file" style={{display:"none"}} onChange={onUpload} />
 
         <div className="flex gap-5 ">
-        <input id='firstname' name='firstname' value={formik.values.firstname} onChange={formik.handleChange} placeholder='firstname' type="text" className=" px-2 my-2 w-2/4 h-5 py-3 rounded border-none" />
-        <input id='lastname' name='lastname' value={formik.values.lastname} onChange={formik.handleChange} placeholder='lastname' type="text" className=" px-2 my-2 w-2/4 h-5 py-3 rounded border-none" />
+        <input id='firstname' name='firstname' value={formik.values.firstname} onChange={formik.handleChange} placeholder='first name' type="text" className=" px-2 my-2 w-2/4 h-5 py-3 rounded border-none" />
+        <input id='lastname' name='lastname' value={formik.values.lastname} onChange={formik.handleChange} placeholder='last name' type="text" className=" px-2 my-2 w-2/4 h-5 py-3 rounded border-none" />
         </div>
 
         <div className="flex gap-5 ">
